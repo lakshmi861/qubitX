@@ -1,0 +1,700 @@
+{
+  "crops": {
+    "TOMATO": {
+      "ranges": {
+        "moisture": { "low": 35, "high": 70, "default": 50 },
+        "temperature": { "low": 18, "high": 30, "default": 25 },
+        "ph": { "low": 5.5, "high": 7.0, "default": 6.2 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 40, "high": 120, "default": 80 },
+        "phosphorus": { "low": 20, "high": 80, "default": 45 },
+        "potassium": { "low": 40, "high": 150, "default": 90 }
+      },
+      "advice": [
+        "Check irrigation when soil moisture is below the configured range.",
+        "Review pH and EC when outside the configured range.",
+        "Review N, P and K when values are outside the configured range."
+      ]
+    },
+
+    "RAGI": {
+      "ranges": {
+        "moisture": { "low": 30, "high": 60, "default": 45 },
+        "temperature": { "low": 20, "high": 32, "default": 26 },
+        "ph": { "low": 5.5, "high": 7.0, "default": 6.2 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 30, "high": 100, "default": 65 },
+        "phosphorus": { "low": 15, "high": 60, "default": 35 },
+        "potassium": { "low": 30, "high": 120, "default": 70 }
+      },
+      "advice": [
+        "Use the crop-specific moisture range.",
+        "Check pH and EC before nutrient intervention.",
+        "Review low N, P and K readings before fertilizer application."
+      ]
+    },
+
+    "RICE": {
+      "ranges": {
+        "moisture": { "low": 55, "high": 90, "default": 70 },
+        "temperature": { "low": 20, "high": 35, "default": 28 },
+        "ph": { "low": 5.0, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.2, "high": 3.0, "default": 1.0 },
+        "nitrogen": { "low": 40, "high": 120, "default": 80 },
+        "phosphorus": { "low": 15, "high": 70, "default": 40 },
+        "potassium": { "low": 30, "high": 120, "default": 70 }
+      },
+      "advice": [
+        "Maintain adequate soil moisture during crop establishment.",
+        "Monitor pH and EC regularly.",
+        "Use N, P and K readings to support soil-test interpretation."
+      ]
+    },
+
+    "MAIZE": {
+      "ranges": {
+        "moisture": { "low": 40, "high": 70, "default": 55 },
+        "temperature": { "low": 18, "high": 32, "default": 25 },
+        "ph": { "low": 5.5, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 40, "high": 140, "default": 90 },
+        "phosphorus": { "low": 20, "high": 80, "default": 45 },
+        "potassium": { "low": 40, "high": 150, "default": 90 }
+      },
+      "advice": [
+        "Maintain moisture during germination and flowering.",
+        "Monitor nitrogen demand during vegetative growth.",
+        "Check phosphorus and potassium when readings are low."
+      ]
+    },
+
+    "JOWAR": {
+      "ranges": {
+        "moisture": { "low": 30, "high": 60, "default": 45 },
+        "temperature": { "low": 20, "high": 35, "default": 27 },
+        "ph": { "low": 5.5, "high": 8.0, "default": 6.5 },
+        "ec": { "low": 0.3, "high": 2.5, "default": 1.1 },
+        "nitrogen": { "low": 30, "high": 110, "default": 70 },
+        "phosphorus": { "low": 15, "high": 60, "default": 35 },
+        "potassium": { "low": 30, "high": 120, "default": 70 }
+      },
+      "advice": [
+        "Avoid prolonged waterlogging.",
+        "Monitor moisture during flowering.",
+        "Review nutrient readings before fertilizer application."
+      ]
+    },
+
+    "BAJRA": {
+      "ranges": {
+        "moisture": { "low": 25, "high": 55, "default": 40 },
+        "temperature": { "low": 22, "high": 35, "default": 28 },
+        "ph": { "low": 5.5, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.3, "high": 2.5, "default": 1.0 },
+        "nitrogen": { "low": 30, "high": 100, "default": 65 },
+        "phosphorus": { "low": 15, "high": 60, "default": 35 },
+        "potassium": { "low": 30, "high": 110, "default": 65 }
+      },
+      "advice": [
+        "Bajra is relatively drought tolerant but needs moisture during establishment.",
+        "Avoid excessive irrigation.",
+        "Monitor nitrogen and potassium availability."
+      ]
+    },
+
+    "WHEAT": {
+      "ranges": {
+        "moisture": { "low": 35, "high": 65, "default": 50 },
+        "temperature": { "low": 15, "high": 25, "default": 20 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.8 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 40, "high": 120, "default": 80 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 30, "high": 120, "default": 70 }
+      },
+      "advice": [
+        "Maintain moderate soil moisture.",
+        "Monitor nitrogen during vegetative growth.",
+        "Check EC and pH before nutrient application."
+      ]
+    },
+
+    "RED_GRAM": {
+      "ranges": {
+        "moisture": { "low": 25, "high": 55, "default": 40 },
+        "temperature": { "low": 20, "high": 32, "default": 26 },
+        "ph": { "low": 5.5, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 20, "high": 80, "default": 50 },
+        "phosphorus": { "low": 15, "high": 60, "default": 35 },
+        "potassium": { "low": 25, "high": 100, "default": 60 }
+      },
+      "advice": [
+        "Avoid excessive irrigation.",
+        "Monitor phosphorus and potassium.",
+        "Consider the crop's nitrogen-fixing nature when interpreting nitrogen readings."
+      ]
+    },
+
+    "GREEN_GRAM": {
+      "ranges": {
+        "moisture": { "low": 25, "high": 55, "default": 40 },
+        "temperature": { "low": 22, "high": 32, "default": 27 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 20, "high": 80, "default": 50 },
+        "phosphorus": { "low": 15, "high": 60, "default": 35 },
+        "potassium": { "low": 25, "high": 100, "default": 60 }
+      },
+      "advice": [
+        "Avoid prolonged waterlogging.",
+        "Monitor phosphorus and potassium.",
+        "Review nitrogen values together with crop growth."
+      ]
+    },
+
+    "BLACK_GRAM": {
+      "ranges": {
+        "moisture": { "low": 25, "high": 55, "default": 40 },
+        "temperature": { "low": 22, "high": 32, "default": 27 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 20, "high": 80, "default": 50 },
+        "phosphorus": { "low": 15, "high": 60, "default": 35 },
+        "potassium": { "low": 25, "high": 100, "default": 60 }
+      },
+      "advice": [
+        "Maintain moderate moisture.",
+        "Avoid excessive irrigation.",
+        "Monitor phosphorus and potassium availability."
+      ]
+    },
+
+    "BENGAL_GRAM": {
+      "ranges": {
+        "moisture": { "low": 25, "high": 50, "default": 38 },
+        "temperature": { "low": 18, "high": 28, "default": 23 },
+        "ph": { "low": 6.0, "high": 8.0, "default": 7.0 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 20, "high": 80, "default": 50 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 30, "high": 100, "default": 60 }
+      },
+      "advice": [
+        "Avoid excessive irrigation.",
+        "Monitor soil phosphorus.",
+        "Check potassium during reproductive growth."
+      ]
+    },
+
+    "GROUNDNUT": {
+      "ranges": {
+        "moisture": { "low": 35, "high": 60, "default": 48 },
+        "temperature": { "low": 22, "high": 32, "default": 27 },
+        "ph": { "low": 5.5, "high": 7.0, "default": 6.2 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 25, "high": 80, "default": 50 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 40, "high": 120, "default": 75 }
+      },
+      "advice": [
+        "Maintain adequate moisture during flowering and pod formation.",
+        "Monitor phosphorus and potassium.",
+        "Avoid excessive nitrogen application."
+      ]
+    },
+
+    "SUNFLOWER": {
+      "ranges": {
+        "moisture": { "low": 30, "high": 60, "default": 45 },
+        "temperature": { "low": 20, "high": 32, "default": 26 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.3, "high": 2.5, "default": 1.1 },
+        "nitrogen": { "low": 30, "high": 100, "default": 65 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 40, "high": 130, "default": 80 }
+      },
+      "advice": [
+        "Maintain moisture during flowering.",
+        "Monitor potassium availability.",
+        "Check phosphorus before fertilizer application."
+      ]
+    },
+
+    "SOYBEAN": {
+      "ranges": {
+        "moisture": { "low": 35, "high": 65, "default": 50 },
+        "temperature": { "low": 20, "high": 32, "default": 26 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 25, "high": 90, "default": 55 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 40, "high": 130, "default": 75 }
+      },
+      "advice": [
+        "Maintain adequate moisture during flowering and pod filling.",
+        "Monitor phosphorus and potassium.",
+        "Interpret nitrogen with consideration of biological nitrogen fixation."
+      ]
+    },
+
+    "SUGARCANE": {
+      "ranges": {
+        "moisture": { "low": 55, "high": 80, "default": 65 },
+        "temperature": { "low": 20, "high": 35, "default": 28 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.8 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 50, "high": 160, "default": 100 },
+        "phosphorus": { "low": 20, "high": 80, "default": 45 },
+        "potassium": { "low": 60, "high": 180, "default": 110 }
+      },
+      "advice": [
+        "Maintain adequate moisture throughout crop growth.",
+        "Sugarcane has a high nutrient demand.",
+        "Monitor nitrogen and especially potassium."
+      ]
+    },
+
+    "COTTON": {
+      "ranges": {
+        "moisture": { "low": 30, "high": 60, "default": 45 },
+        "temperature": { "low": 21, "high": 32, "default": 27 },
+        "ph": { "low": 5.5, "high": 8.0, "default": 6.5 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 40, "high": 120, "default": 75 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 50, "high": 150, "default": 90 }
+      },
+      "advice": [
+        "Avoid prolonged waterlogging.",
+        "Monitor moisture during flowering and boll development.",
+        "Monitor potassium closely."
+      ]
+    },
+
+    "ONION": {
+      "ranges": {
+        "moisture": { "low": 35, "high": 65, "default": 50 },
+        "temperature": { "low": 13, "high": 30, "default": 22 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 40, "high": 120, "default": 75 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 40, "high": 150, "default": 90 }
+      },
+      "advice": [
+        "Maintain consistent moisture without waterlogging.",
+        "Avoid excessive nitrogen close to bulb maturity.",
+        "Monitor potassium during bulb development."
+      ]
+    },
+
+    "POTATO": {
+      "ranges": {
+        "moisture": { "low": 45, "high": 75, "default": 60 },
+        "temperature": { "low": 15, "high": 25, "default": 20 },
+        "ph": { "low": 5.0, "high": 6.5, "default": 5.8 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 40, "high": 130, "default": 80 },
+        "phosphorus": { "low": 20, "high": 80, "default": 45 },
+        "potassium": { "low": 50, "high": 170, "default": 100 }
+      },
+      "advice": [
+        "Maintain uniform soil moisture during tuber development.",
+        "Avoid waterlogging.",
+        "Monitor potassium closely."
+      ]
+    },
+
+    "BRINJAL": {
+      "ranges": {
+        "moisture": { "low": 40, "high": 70, "default": 55 },
+        "temperature": { "low": 22, "high": 32, "default": 27 },
+        "ph": { "low": 5.5, "high": 7.0, "default": 6.2 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 40, "high": 130, "default": 80 },
+        "phosphorus": { "low": 20, "high": 80, "default": 45 },
+        "potassium": { "low": 50, "high": 160, "default": 95 }
+      },
+      "advice": [
+        "Maintain consistent moisture.",
+        "Monitor potassium during fruit production.",
+        "Check pH and EC regularly."
+      ]
+    },
+
+    "CHILLI": {
+      "ranges": {
+        "moisture": { "low": 35, "high": 65, "default": 50 },
+        "temperature": { "low": 20, "high": 32, "default": 26 },
+        "ph": { "low": 5.5, "high": 7.0, "default": 6.2 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 40, "high": 120, "default": 75 },
+        "phosphorus": { "low": 20, "high": 80, "default": 45 },
+        "potassium": { "low": 50, "high": 160, "default": 95 }
+      },
+      "advice": [
+        "Avoid both drought stress and waterlogging.",
+        "Monitor potassium during fruiting.",
+        "Check soil EC when growth is poor."
+      ]
+    },
+
+    "OKRA": {
+      "ranges": {
+        "moisture": { "low": 35, "high": 65, "default": 50 },
+        "temperature": { "low": 22, "high": 35, "default": 28 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 40, "high": 120, "default": 75 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 40, "high": 140, "default": 85 }
+      },
+      "advice": [
+        "Maintain adequate moisture during flowering.",
+        "Monitor nitrogen and potassium.",
+        "Avoid excessive irrigation."
+      ]
+    },
+
+    "CABBAGE": {
+      "ranges": {
+        "moisture": { "low": 45, "high": 75, "default": 60 },
+        "temperature": { "low": 15, "high": 25, "default": 20 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 50, "high": 140, "default": 90 },
+        "phosphorus": { "low": 20, "high": 80, "default": 45 },
+        "potassium": { "low": 50, "high": 160, "default": 100 }
+      },
+      "advice": [
+        "Maintain consistent moisture during head formation.",
+        "Monitor nitrogen during vegetative growth.",
+        "Monitor potassium during head development."
+      ]
+    },
+
+    "CAULIFLOWER": {
+      "ranges": {
+        "moisture": { "low": 45, "high": 75, "default": 60 },
+        "temperature": { "low": 15, "high": 25, "default": 20 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 50, "high": 140, "default": 90 },
+        "phosphorus": { "low": 20, "high": 80, "default": 45 },
+        "potassium": { "low": 50, "high": 160, "default": 100 }
+      },
+      "advice": [
+        "Maintain uniform soil moisture.",
+        "Monitor nitrogen during vegetative growth.",
+        "Check potassium during curd development."
+      ]
+    },
+
+    "CARROT": {
+      "ranges": {
+        "moisture": { "low": 40, "high": 70, "default": 55 },
+        "temperature": { "low": 15, "high": 25, "default": 20 },
+        "ph": { "low": 5.5, "high": 7.0, "default": 6.2 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 30, "high": 100, "default": 60 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 40, "high": 130, "default": 80 }
+      },
+      "advice": [
+        "Maintain loose, evenly moist soil.",
+        "Avoid excessive nitrogen.",
+        "Monitor potassium for root development."
+      ]
+    },
+
+    "BEANS": {
+      "ranges": {
+        "moisture": { "low": 40, "high": 70, "default": 55 },
+        "temperature": { "low": 18, "high": 30, "default": 24 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 25, "high": 90, "default": 55 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 30, "high": 120, "default": 70 }
+      },
+      "advice": [
+        "Maintain consistent moisture during flowering.",
+        "Avoid excessive nitrogen.",
+        "Monitor phosphorus and potassium."
+      ]
+    },
+
+    "CUCUMBER": {
+      "ranges": {
+        "moisture": { "low": 45, "high": 75, "default": 60 },
+        "temperature": { "low": 20, "high": 32, "default": 26 },
+        "ph": { "low": 5.5, "high": 7.0, "default": 6.2 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 40, "high": 130, "default": 80 },
+        "phosphorus": { "low": 20, "high": 80, "default": 45 },
+        "potassium": { "low": 50, "high": 160, "default": 95 }
+      },
+      "advice": [
+        "Maintain consistent moisture.",
+        "Monitor potassium during fruiting.",
+        "Check EC when growth is reduced."
+      ]
+    },
+
+    "WATERMELON": {
+      "ranges": {
+        "moisture": { "low": 35, "high": 65, "default": 50 },
+        "temperature": { "low": 22, "high": 35, "default": 28 },
+        "ph": { "low": 5.5, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 30, "high": 110, "default": 65 },
+        "phosphorus": { "low": 20, "high": 80, "default": 45 },
+        "potassium": { "low": 50, "high": 170, "default": 100 }
+      },
+      "advice": [
+        "Maintain adequate moisture during fruit development.",
+        "Avoid excessive nitrogen near fruit maturity.",
+        "Monitor potassium closely."
+      ]
+    },
+
+    "BANANA": {
+      "ranges": {
+        "moisture": { "low": 55, "high": 80, "default": 65 },
+        "temperature": { "low": 20, "high": 35, "default": 28 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 60, "high": 180, "default": 110 },
+        "phosphorus": { "low": 20, "high": 80, "default": 45 },
+        "potassium": { "low": 80, "high": 220, "default": 130 }
+      },
+      "advice": [
+        "Banana requires regular moisture.",
+        "Monitor potassium closely because of high crop demand.",
+        "Check nitrogen throughout vegetative growth."
+      ]
+    },
+
+    "MANGO": {
+      "ranges": {
+        "moisture": { "low": 30, "high": 60, "default": 45 },
+        "temperature": { "low": 20, "high": 35, "default": 27 },
+        "ph": { "low": 5.5, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 30, "high": 120, "default": 70 },
+        "phosphorus": { "low": 15, "high": 70, "default": 40 },
+        "potassium": { "low": 40, "high": 150, "default": 90 }
+      },
+      "advice": [
+        "Avoid prolonged waterlogging.",
+        "Adjust irrigation according to tree growth stage.",
+        "Monitor potassium during fruit development."
+      ]
+    },
+
+    "POMEGRANATE": {
+      "ranges": {
+        "moisture": { "low": 30, "high": 60, "default": 45 },
+        "temperature": { "low": 20, "high": 35, "default": 27 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.8 },
+        "ec": { "low": 0.5, "high": 2.5, "default": 1.2 },
+        "nitrogen": { "low": 30, "high": 120, "default": 70 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 50, "high": 160, "default": 100 }
+      },
+      "advice": [
+        "Use controlled irrigation.",
+        "Avoid excessive nitrogen during fruit development.",
+        "Monitor potassium and EC."
+      ]
+    },
+
+    "GRAPES": {
+      "ranges": {
+        "moisture": { "low": 30, "high": 60, "default": 45 },
+        "temperature": { "low": 18, "high": 35, "default": 27 },
+        "ph": { "low": 6.0, "high": 7.5, "default": 6.8 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 30, "high": 110, "default": 65 },
+        "phosphorus": { "low": 15, "high": 70, "default": 40 },
+        "potassium": { "low": 50, "high": 160, "default": 100 }
+      },
+      "advice": [
+        "Use controlled irrigation according to growth stage.",
+        "Monitor potassium during fruit development.",
+        "Avoid excessive nitrogen."
+      ]
+    },
+
+    "COCONUT": {
+      "ranges": {
+        "moisture": { "low": 45, "high": 75, "default": 60 },
+        "temperature": { "low": 22, "high": 35, "default": 28 },
+        "ph": { "low": 5.5, "high": 7.0, "default": 6.2 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 50, "high": 160, "default": 100 },
+        "phosphorus": { "low": 20, "high": 80, "default": 45 },
+        "potassium": { "low": 80, "high": 220, "default": 130 }
+      },
+      "advice": [
+        "Maintain adequate moisture around the root zone.",
+        "Monitor potassium regularly.",
+        "Check soil salinity and EC."
+      ]
+    },
+
+    "ARECANUT": {
+      "ranges": {
+        "moisture": { "low": 50, "high": 80, "default": 65 },
+        "temperature": { "low": 20, "high": 35, "default": 27 },
+        "ph": { "low": 5.5, "high": 7.0, "default": 6.2 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 50, "high": 150, "default": 90 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 70, "high": 200, "default": 120 }
+      },
+      "advice": [
+        "Maintain adequate soil moisture.",
+        "Avoid waterlogging.",
+        "Monitor potassium and nitrogen."
+      ]
+    },
+
+    "COFFEE": {
+      "ranges": {
+        "moisture": { "low": 45, "high": 75, "default": 60 },
+        "temperature": { "low": 18, "high": 30, "default": 24 },
+        "ph": { "low": 5.0, "high": 6.5, "default": 5.8 },
+        "ec": { "low": 0.2, "high": 1.5, "default": 0.7 },
+        "nitrogen": { "low": 40, "high": 140, "default": 85 },
+        "phosphorus": { "low": 15, "high": 70, "default": 40 },
+        "potassium": { "low": 50, "high": 180, "default": 110 }
+      },
+      "advice": [
+        "Maintain organic matter and adequate moisture.",
+        "Coffee generally prefers acidic soil.",
+        "Monitor potassium during berry development."
+      ]
+    },
+
+    "BLACK_PEPPER": {
+      "ranges": {
+        "moisture": { "low": 50, "high": 80, "default": 65 },
+        "temperature": { "low": 20, "high": 32, "default": 26 },
+        "ph": { "low": 5.0, "high": 6.5, "default": 5.8 },
+        "ec": { "low": 0.2, "high": 1.5, "default": 0.7 },
+        "nitrogen": { "low": 40, "high": 130, "default": 80 },
+        "phosphorus": { "low": 15, "high": 60, "default": 35 },
+        "potassium": { "low": 50, "high": 160, "default": 100 }
+      },
+      "advice": [
+        "Maintain good soil moisture.",
+        "Avoid waterlogging.",
+        "Monitor potassium and soil acidity."
+      ]
+    },
+
+    "CARDAMOM": {
+      "ranges": {
+        "moisture": { "low": 55, "high": 80, "default": 68 },
+        "temperature": { "low": 18, "high": 30, "default": 24 },
+        "ph": { "low": 5.0, "high": 6.5, "default": 5.8 },
+        "ec": { "low": 0.2, "high": 1.5, "default": 0.7 },
+        "nitrogen": { "low": 40, "high": 130, "default": 80 },
+        "phosphorus": { "low": 15, "high": 60, "default": 35 },
+        "potassium": { "low": 50, "high": 150, "default": 90 }
+      },
+      "advice": [
+        "Maintain moist but well-drained soil.",
+        "Maintain acidic soil conditions.",
+        "Monitor potassium and nitrogen."
+      ]
+    },
+
+    "GINGER": {
+      "ranges": {
+        "moisture": { "low": 50, "high": 75, "default": 62 },
+        "temperature": { "low": 20, "high": 32, "default": 26 },
+        "ph": { "low": 5.5, "high": 7.0, "default": 6.2 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 40, "high": 120, "default": 75 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 50, "high": 160, "default": 95 }
+      },
+      "advice": [
+        "Maintain consistent moisture.",
+        "Ensure good drainage to prevent rhizome problems.",
+        "Monitor potassium during rhizome development."
+      ]
+    },
+
+    "TURMERIC": {
+      "ranges": {
+        "moisture": { "low": 50, "high": 75, "default": 62 },
+        "temperature": { "low": 20, "high": 32, "default": 26 },
+        "ph": { "low": 5.5, "high": 7.5, "default": 6.5 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 40, "high": 130, "default": 80 },
+        "phosphorus": { "low": 20, "high": 70, "default": 40 },
+        "potassium": { "low": 50, "high": 160, "default": 100 }
+      },
+      "advice": [
+        "Maintain adequate moisture during rhizome development.",
+        "Ensure good drainage.",
+        "Monitor potassium and phosphorus."
+      ]
+    },
+
+    "SESAME": {
+      "ranges": {
+        "moisture": { "low": 25, "high": 50, "default": 38 },
+        "temperature": { "low": 25, "high": 35, "default": 29 },
+        "ph": { "low": 5.5, "high": 8.0, "default": 6.5 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 25, "high": 90, "default": 55 },
+        "phosphorus": { "low": 15, "high": 60, "default": 35 },
+        "potassium": { "low": 30, "high": 110, "default": 65 }
+      },
+      "advice": [
+        "Avoid excessive irrigation.",
+        "Maintain moisture during establishment and flowering.",
+        "Monitor phosphorus and potassium."
+      ]
+    },
+
+    "CASTOR": {
+      "ranges": {
+        "moisture": { "low": 30, "high": 60, "default": 45 },
+        "temperature": { "low": 20, "high": 35, "default": 27 },
+        "ph": { "low": 5.5, "high": 8.0, "default": 6.5 },
+        "ec": { "low": 0.3, "high": 2.5, "default": 1.1 },
+        "nitrogen": { "low": 30, "high": 110, "default": 70 },
+        "phosphorus": { "low": 15, "high": 60, "default": 35 },
+        "potassium": { "low": 40, "high": 130, "default": 80 }
+      },
+      "advice": [
+        "Maintain adequate moisture during establishment.",
+        "Avoid prolonged waterlogging.",
+        "Monitor nitrogen and potassium."
+      ]
+    },
+
+    "FINGER_MILLET": {
+      "ranges": {
+        "moisture": { "low": 30, "high": 60, "default": 45 },
+        "temperature": { "low": 20, "high": 32, "default": 26 },
+        "ph": { "low": 5.5, "high": 7.5, "default": 6.2 },
+        "ec": { "low": 0.3, "high": 2.0, "default": 1.0 },
+        "nitrogen": { "low": 30, "high": 100, "default": 65 },
+        "phosphorus": { "low": 15, "high": 60, "default": 35 },
+        "potassium": { "low": 30, "high": 120, "default": 70 }
+      },
+      "advice": [
+        "Maintain adequate moisture during establishment.",
+        "Avoid excessive irrigation.",
+        "Monitor N, P and K based on soil-test results."
+      ]
+    }
+  }
+}
